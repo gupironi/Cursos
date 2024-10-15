@@ -14,9 +14,9 @@ print(soma_impares)
 for a in range(10,0,-1):
     print(a)
 
-#number = int(input('Digite o numero'))
-#for i in range (1,11,1):
-#    print(number * i)
+'''number = int(input('Digite o numero'))
+for i in range (1,11,1):
+    print(number * i)'''
 
 list = [22,36,15,49]
 soma = 0
