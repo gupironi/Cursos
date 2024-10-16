@@ -14,3 +14,28 @@ Remova um item do dicionário.
 
 5 - Escreva um código que conte a frequência de cada palavra em uma frase utilizando um dicionário.
 '''
+#1
+pessoa = {'nome':'Jose','idade':29,'cidade':'São Paulo'}
+
+#2
+pessoa['idade'] = 31
+pessoa['profissão'] = 'Professor'
+del pessoa['cidade']
+
+#3
+num_quad = {x: x**2 for x in range(1,6)}
+print(num_quad)
+
+#4
+if 'nome' in pessoa:
+    print('A chave foi encontrada')
+
+#5
+frase = 'O mundo está quase explodindo em 2024, e vai em 2025'
+
+contagem_palavras = {}
+palavras = frase.split()
+
+for palavra in palavras:
+    contagem_palavras[palavra] = contagem_palavras.get(palavra,0) + 1
+    print(contagem_palavras)
