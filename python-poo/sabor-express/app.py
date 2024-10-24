@@ -5,6 +5,9 @@ restaurantes = [{'nome':'Sazon', 'categoria':'Hamburgueria', 'ativo':False},
                 {'nome':'Cantina Di Gusto', 'categoria':'Italiana', 'ativo':False}]
 
 def exibir_nome_programa():
+    '''
+    Essa função é responsável por exibir o logo do programa
+    '''
     print("""
     ╭━━━╮╱╱╭╮╱╱╱╱╱╱╱╭━━━╮
     ┃╭━╮┃╱╱┃┃╱╱╱╱╱╱╱┃╭━━╯
@@ -17,12 +20,18 @@ def exibir_nome_programa():
         """)
 
 def exibir_opcoes():
+    '''
+    Essa função exibe todas as opções de funcionalidades do programa
+    '''
     print('1. Cadastrar restaurante')
     print('2. Listar restaurante')
     print('3. Alternar estado do restaurante')
     print('4. Sair\n')
 
 def voltar_menu():
+    '''
+    Essa função volta o programa ao menu principal
+    '''
     input('\nDigite uma tecla para voltar ao menu principal\n')
     main()
 
