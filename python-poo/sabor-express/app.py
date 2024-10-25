@@ -4,6 +4,7 @@ restaurantes = [{'nome':'Sazon', 'categoria':'Hamburgueria', 'ativo':False},
                 {'nome':'Aoyama', 'categoria':'Japonesa', 'ativo':True},
                 {'nome':'Cantina Di Gusto', 'categoria':'Italiana', 'ativo':False}]
 
+#lalala
 def exibir_nome_programa():
     '''
     Essa função é responsável por exibir o logo do programa
